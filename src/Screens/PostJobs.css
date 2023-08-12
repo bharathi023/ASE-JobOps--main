@@ -1,0 +1,62 @@
+.postform{
+    display: flex;
+    margin-left: 10px;
+    width: 100%;
+    
+    
+    justify-content: center;
+}
+.postform1{
+    margin-top:"80px";
+    display:"grid";
+    gap:"40px";
+    text-align: center;
+    width: 70%;
+    
+}
+.inputfield{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    box-shadow: rgba(164, 165, 166, 0.71) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.postjobsdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+@media only screen and (max-width: 768px) {
+    .postjobsdiv {
+        display: block;
+    }
+.jobposter {
+    display: none;
+    width: 100%;
+}
+
+}
+.jobposter{
+    margin-top: 80px;
+    width: 50%;
+    
+}
+.jobsimg{
+    height: 100%;
+}
+.submitbutton{
+    width: 30%;
+    border: none;
+    background-color: #1d415e;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: 900;
+}
+.submitbutton:hover {
+    background-color: rgb(69, 71, 75);
+
+}

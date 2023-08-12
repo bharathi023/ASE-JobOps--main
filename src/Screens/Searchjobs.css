@@ -1,0 +1,75 @@
+.jobtext{
+    font-size: 13px;
+}
+.jobbox{
+    border-radius: 10px;
+    width: fit-content;
+   margin-top: 30px;
+   padding: 10px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.bookmark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bookmarkimg{
+    height: 30px;
+    margin-top: 10px;
+}
+.jobtextspan{
+    font-size: 13px;
+    color: grey;
+    margin-left: 5px;
+}
+.main{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+
+.button{
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    font-weight: 700;
+    background-color: #1d415e ;
+    color: white;
+    border-radius: 5px;
+}
+.search{
+    width: 90%;
+    margin-top: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}
+.searchbox{
+
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    .main {
+        
+
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+        margin-right: 1rem;
+       
+    }
+
+}

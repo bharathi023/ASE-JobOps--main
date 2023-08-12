@@ -1,0 +1,22 @@
+
+.whole{
+    background: linear-gradient(to bottom, #e1e4e6, #1d415e);
+    
+    padding-bottom: 3%;
+}
+
+.poll{
+    border:1px solid black;
+    padding:5px;
+    border-radius:5px;
+    cursor:"pointer";
+}
+.poll:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+
